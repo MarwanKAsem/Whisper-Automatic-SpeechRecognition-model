@@ -79,13 +79,14 @@ Best WER Achieved: (update after training completes)
 
 ## 📁 Directory Structure
 whisper-small-hi2/
-├── train.py                 # Training script
-├── evaluate.py              # Evaluation script
-├── config/                  # Training configs (optional)
-├── data/                    # Local dataset storage (optional)
-├── outputs/                 # Saved models and logs
-├── requirements.txt         # Dependencies
-└── README.md
+Whisper-Automatic-SpeechRecognition-model/
+├── model/
+│   ├── model.safetensors
+│   ├── config.json
+│   └── ...
+├── Train.py
+├── README.md
+└── requirements.txt
 
 ## ✨ Features
 
@@ -97,12 +98,9 @@ Hugging Face Hub integration ready
 
 Compatible with Datasets and Trainer
 
-## 📜 License
-This project is licensed under the MIT License. Feel free to use, modify, and share!
 
 ## 🙌✨ Acknowledgements
 Hugging Face 🤗
 OpenAI Whisper
 AMI Meeting Corpus (AMI IHM Dataset ==> https://huggingface.co/datasets/edinburghcstr/ami )
-📝 License
-This project is licensed under the MIT License. Dataset usage must comply with AMI Corpus terms.
+
