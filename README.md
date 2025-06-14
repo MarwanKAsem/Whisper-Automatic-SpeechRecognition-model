@@ -78,7 +78,7 @@ Evaluation Metric: Word Error Rate (WER)
 Best WER Achieved: (update after training completes)
 
 ## 📁 Directory Structure
-whisper-small-hi2/
+```
 Whisper-Automatic-SpeechRecognition-model/
 ├── model/
 │   ├── model.safetensors
@@ -87,6 +87,7 @@ Whisper-Automatic-SpeechRecognition-model/
 ├── Train.py
 ├── README.md
 └── requirements.txt
+```
 
 ## ✨ Features
 
